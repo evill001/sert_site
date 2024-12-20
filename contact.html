@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="main-header">
+    <div class="container">
+        <div class="logo">
+            <h1>Сертификационный Центр</h1>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="onas.html">О нас</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="contacts">
+    <div class="container">
+        <h2>Контакты</h2>
+        <p>Свяжитесь с нами, чтобы получить профессиональную консультацию и помощь.</p>
+
+        <div class="contact-info-grid">
+            <div class="contact-item">
+                <div class="icon">
+                    <img src="address-icon.png" alt="Адрес">
+                </div>
+                <h3>Наш адрес</h3>
+                <p>г. Москва, ул. Примерная, д. 10</p>
+            </div>
+            <div class="contact-item">
+                <div class="icon">
+                    <img src="phone-icon.png" alt="Телефон">
+                </div>
+                <h3>Телефон</h3>
+                <p>+7 (495) 123-45-67</p>
+            </div>
+            <div class="contact-item">
+                <div class="icon">
+                    <img src="email-icon.png" alt="Email">
+                </div>
+                <h3>Email</h3>
+                <p><a href="mailto:info@sertcenter.ru">info@sertcenter.ru</a></p>
+            </div>
+        </div>
+
+        <form class="contact-form">
+            <h3>Напишите нам</h3>
+            <div class="form-group">
+                <label for="name">Ваше имя</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Ваш email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Ваше сообщение</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+</section>
+
+<footer class="main-footer">
+    <p>&copy; 2024 Сертификационный Центр. Все права защищены. <a href="policy.html">Политика конфиденциальности</a></p>
+</footer>
+
+</body>
+</html>
